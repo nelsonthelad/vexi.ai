@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import scrolledtext
 from openai import OpenAI
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="your-api-key")
 
 def createView():
     app = tk.Tk()
